@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Responsive page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/Mottav-logo.svg" alt="" />
+                        </a>
+                    </div>
+                    <div class="search-wrapper">
+                        <form action="submit">
+                            <span class="icon">
+                                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            </span>
+                            <input type="text" placeholder="Search for anything" />
+                            <button>Search</button>
+                        </form>
+                    </div>
+                    <ul class="nav-links">
+                        <li>
+                            <button>
+                                <i class="fa-regular fa-user"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <span>Cart</span>
+                        </li>
+                    </ul>
+                    <div class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+                <div class="bottom-menu">
+                    <ul class="deals-menu">
+                        <li>
+                            <a href="#">Daily Deals</a>
+                        </li>
+                        <li>
+                            <a href="#">Find Stores</a>
+                        </li>
+                        <li>
+                            <a href="#">Gift Cards</a>
+                        </li>
+                        <li>
+                            <a href="#">Sell on Motta</a>
+                        </li>
+                    </ul>
+                    <ul class="account-menu">
+                        <li>
+                            <button>
+                                <span>
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                Help Center</button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                                Track Order</button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>
+                                    <img src="assets/en.svg" alt="" />
+                                </span>
+                                EN/USD</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="banner">
+                <div class="container">
+                    <div class="product-row">
+                        <ul class="list">
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Deals <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">What's New <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Home & Garden <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Electronics <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Fashion <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Beauty & Health <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Sports and Entertainment
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Toys & Games <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">Mother & Kids <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>
+                                    <span class="icon">
+                                        <i class="fa-regular fa-star"></i>
+                                    </span>
+                                    <span class="title">All Categories <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="product-grid">
+                            <div class="card bg-black">
+                                <h3>APPLIANCES</h3>
+                                <h2>Small Kitchen<br />Appliances On Sale</h2>
+                                <p>Save upto 30% on select small kitchen appliances</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                            <div class="card bg-brown">
+                                <h4>LIMITED TIME OFFER</h4>
+                                <h3>Spring Revival</h3>
+                                <p>Save upto 25% on All Furnitures</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                            <div class="card bg-pink">
+                                <h4>WEEKLY PICKS</h4>
+                                <h3>Trail Running</h3>
+                                <p>Comfortable, Confident fit</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                            <div class="card bg-blue">
+                                <h4>SAVE ON APPLIANCES</h4>
+                                <h3>Vaccum and Mop</h3>
+                                <p>Low price on vacuums</p>
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="functionalities">
+                <div class="container">
+                    <div class="function-wrapper">
+                        <div class="functions">
+                            <div class="icon">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+                            <div class="details">
+                                <h4>Fast, Free Shipping</h4>
+                                <h5>On order over $50</h5>
+                            </div>
+                        </div>
+                        <div class="functions">
+                            <div class="icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div class="details">
+                                <h4>Fast, Free Shipping</h4>
+                                <h5>On order over $50</h5>
+                            </div>
+                        </div>
+                        <div class="functions">
+                            <div class="icon">
+                                <i class="fa-solid fa-gear"></i>
+                            </div>
+                            <div class="details">
+                                <h4>Fast, Free Shipping</h4>
+                                <h5>On order over $50</h5>
+                            </div>
+                        </div>
+                        <div class="functions">
+                            <div class="icon">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div class="details">
+                                <h4>Fast, Free Shipping</h4>
+                                <h5>On order over $50</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="extra-off">
+                <div class="container">
+                    <div class="item-wrapper">
+                        <div class="item bg-green">
+                            <h5>NEW ARRIVALS</h5>
+                            <h4>Work and Play</h4>
+                            <p>Enjoy a 3-year guarantee<br />included</p>
+                            <a href="#">Shop Now</a>
+                            <span class="off-tag">
+                                form<br />
+                                $399
+                            </span>
+                        </div>
+                        <div class="item bg-gray">
+                            <h5>CLEARANCE</h5>
+                            <h4>Kitchen bundle</h4>
+                            <p>Get upto 15% off<br />Kitchen Appliances</p>
+                            <a href="#">Shop Now</a>
+                            <span class="off-tag">
+                                form<br />
+                                $399
+                            </span>
+                        </div>
+                        <div class="item bg-yellow">
+                            <h5>FEATURED</h5>
+                            <h4>Hygeinic Shaving</h4>
+                            <p>Your best save, or your<br />money back.</p>
+                            <a href="#">Shop Now</a>
+                            <span class="off-tag">
+                                form<br />
+                                $399
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flash-deals">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s11.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>Slate Series 33 Inch French Door Refrigerator Slate</h4>
+                                        <h5>$1,899.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/zonelogo.webp" alt="">
+                                            <span>TehchiStore</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button class="cart" href="#">Add to cart</button>
+                                        <a class="view" href="#">Quick View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s12.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>MacBook Pro 16 with Retina Display (Space Gray)</h4>
+                                        <h5>$49.000</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/zonelogo.webp" alt="">
+                                            <span>Zone Shop</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s13.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>JOBY GripTight PRO TelePod Tripod</h4>
+                                        <h5>$125.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/zonelogo.webp" alt="">
+                                            <span>Zone Shop</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s14.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>Galaxy Watch Active 2 Aluminum Smart Watch</h4>
+                                        <h5>$399.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/abralogo.webp" alt="">
+                                            <span>Abra Co.</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s15.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>1TB Gaming Console – Wireless Game Pad – Black</h4>
+                                        <h5>$300.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/casuallogo.webp" alt="">
+                                            <span>Casual</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s16.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>50s Retro Style Blender with 6 Cups Tritan</h4>
+                                        <h5>$199.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/techistorelogo.webp" alt="">
+                                            <span>TehchiStore</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s17.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>11-inch Tablet Pro 2020 Space Gray</h4>
+                                        <h5>$449.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/sanvalogo.webp" alt="">
+                                            <span>Sanvo</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="shopping">
+                <div class="container">
+                    <div class="title">
+                        <h2>What Are You Shopping for Today?</h2>
+                        <a href="#">See All</a>
+                    </div>
+                    <div class="highlighted-item">
+                        <div class="item-card bg-home">
+                            <h3>Home & Garden</h3>
+                            <p>Furniture, Kitchen, Lighting and More!</p>
+                            <a href="#">See More</a>
+                        </div>
+                        <div class="item-card bg-electro">
+                            <h3>Electronics</h3>
+                            <p>TVs, Cell Phones, Laptops and More!</p>
+                            <a href="#">See More</a>
+                        </div>
+                        <div class="item-card bg-fashion">
+                            <h3>Fashion</h3>
+                            <p>Clothing, Shoes, Accessories and More!</p>
+                            <a href="#">See More</a>
+                        </div>
+                    </div>
+                    <ul class="related-item">
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/watches.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Watches</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/toysgames.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Toys & Games</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/beauty.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Beauty & Health</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/jewelry.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Jewelry</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/appliances.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Appliances</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="img-wrapper">
+                                <img src="assets/sports.webp" alt="">
+                            </div>
+                            <div class="item-details">
+                                <h4>Sports</h4>
+                                <a href="#">See More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="featured-product">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s18.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>Slate Series 33 Inch French Door Refrigerator Slate</h4>
+                                        <h5>$1,899.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/techistorelogo.webp" alt="">
+                                            <span>TehchiStore</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button class="cart" href="#">Add to cart</button>
+                                        <a class="view" href="#">Quick View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s13.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>JOBY GripTight PRO TelePod Tripod</h4>
+                                        <h5>$125.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/zonelogo.webp" alt="">
+                                            <span>Zone Shop</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s19.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>Galaxy Watch Active 2 Aluminum Smart Watch</h4>
+                                        <h5>$399.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/abralogo.webp" alt="">
+                                            <span>Abra Co.</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s1-10.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>1TB Gaming Console – Wireless Game Pad – Black</h4>
+                                        <h5>$300.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/casuallogo.webp" alt="">
+                                            <span>Casual</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s1-11.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>50s Retro Style Blender with 6 Cups Tritan</h4>
+                                        <h5>$199.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/techistorelogo.webp" alt="">
+                                            <span>TehchiStore</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-img">
+                                        <img src="assets/s17.webp" alt="" />
+                                    </div>
+                                    <div class="product-details">
+                                        <h4>11-inch Tablet Pro 2020 Space Gray</h4>
+                                        <h5>$449.00</h5>
+                                        <a class="shop-name" href="#">
+                                            <img src="assets/sanvalogo.webp" alt="">
+                                            <span>Sanvo</span>
+                                        </a>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button class="cart" href="#">Add to cart</button>
+                                            <a class="view" href="#">Quick View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="trending-brands">
+                <div class="container">
+                    <div class="heading">
+                        <h2>Trending Brands</h2>
+                    </div>
+                    <ul class="brand-list">
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/samsung.webp" alt="">
+                            </div>
+                            <a href="#">Samsung</a>
+                        </li>
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/nike.webp" alt="">
+                            </div>
+                            <a href="#">Nike</a>
+                        </li>
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/kit.webp" alt="">
+                            </div>
+                            <a href="#">KitchenAid</a>
+                        </li>
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/apple.webp" alt="">
+                            </div>
+                            <a href="#">Apple</a>
+                        </li>
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/intel-1.webp" alt="">
+                            </div>
+                            <a href="#">Intel</a>
+                        </li>
+                        <li class="brand">
+                            <div class="brand-logo">
+                                <img src="assets/HM.webp" alt="">
+                            </div>
+                            <a href="#">Herman Miller</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="app-section">
+                <div class="container">
+                    <div class="app-banner">
+                        <div class="left">
+                            <h2>Simplify your shopping<br>
+                                with the app</h2>
+                            <p>Shopping on the go is fast and easy with our free app.</p>
+                            <div class="btns">
+                                <a href="#"><img src="assets/appstore.webp" alt=""></a>
+                                <a href="#"><img src="assets/ggstore.webp" alt=""></a>
+                            </div>
+                            <form class="form">
+                                <label>
+                                    Receive a download link
+                                </label>
+                                <div class="input-box">
+                                    <input type="text" placeholder="Enter your email address">
+                                    <button>subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right">
+                            <img src="assets/home2_newsletter.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="policies">
+                    <div class="policy-card">
+                        <i class="fa-solid fa-earth-asia"></i>
+                        <div class="card-details">
+                            <h6>Worldwide Delivery</h6>
+                            <p>200 countries and regions<br>
+                                worldwide
+                            </p>
+                        </div>
+                    </div>
+                    <div class="policy-card">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <div class="card-details">
+                            <h6>Worldwide Delivery</h6>
+                            <p>200 countries and regions<br>
+                                worldwide
+                            </p>
+                        </div>
+                    </div>
+                    <div class="policy-card">
+                        <i class="fa-solid fa-cube"></i>
+                        <div class="card-details">
+                            <h6>Worldwide Delivery</h6>
+                            <p>200 countries and regions<br>
+                                worldwide
+                            </p>
+                        </div>
+                    </div>
+                    <div class="policy-card">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="card-details">
+                            <h6>Worldwide Delivery</h6>
+                            <p>200 countries and regions<br>
+                                worldwide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <span>Get to Know Us</span>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">News & Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Customer Service</span>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQ’s</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">Payment Method</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Orders & Returns</span>
+                        <ul>
+                            <li><a href="#">Track Order</a></li>
+                            <li><a href="#">Shipping & Delivery</a></li>
+                            <li><a href="#">Return & Exchange</a></li>
+                            <li><a href="#">Price Match Guarantee</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Legale</span>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Let’s keep in touch</span>
+                        <p>Get recommendations, tips, updates and more.</p>
+                        <div class="input">
+                            <input type="email" placeholder="Enter your email address">
+                            <button>subscribe</button>
+                        </div>
+                        <span>Stay Connected</span>
+                        <ul class="social-media">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
